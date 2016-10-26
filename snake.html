@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+        <title>貪食蛇</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="snake.js"></script>
+        
+        <style>
+            /* global css */
+            .clearfix:after {clear: both; content: "."; display: block; font-size: 0.1em; height: 0; line-height: 0; visibility: hidden;}
+            .clearfix {display: inline-block;}
+            * html .clearfix {height: 1%;}
+            .clearfix {display: block;}
+            * html .clearfix select {margin-bottom:1px;}
+            
+            #wrapper { display: inline-block;}
+            body > div{text-align: center;}
+            .level1 { }
+            .level2 { width: 10px; height: 10px; float: left; border: 1px solid #CCC;} 
+            body .snake { background: black; }
+            .food { background: red; }
+            body{background-image: url(images/snakeBG.jpg); background-size: cover;}
+            h1{font-size: 50px; display: inline-block;}
+            #logo{width: 50px  ; height: 75px; background-image: url(images/jude_logo.png); background-repeat: no-repeat; background-size: 100% 100%; z-index: 1; display: inline-block;}
+        </style>
+        
+    </head>
+    <body>
+        <div>
+            <div>
+                <div id="logo"></div>
+                <h1>貪食蛇</h1>
+            </div>
+            <div id="wrapper">
+            </div>
+        </div>
+    </body>
+</html>
